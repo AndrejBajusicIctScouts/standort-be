@@ -1,18 +1,26 @@
-body{
-
+#navbar{
+    backround-color: beige;
+    text-color: red;
+}
+#navbar.hover{
+    text-color: blue;
+}
+h1{
+    font-family:Nimbus Sans;
+    color:red;
+}
+img{
+    border: 3px black;
+    float: right;
+}
+p{
+    border: 3px red;
+    margin: 4px;
+}
+a{
+    color: red;
+}
+a.hover{
+    color: blue;
 }
 
-nav{
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}
